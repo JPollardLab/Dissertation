@@ -314,8 +314,8 @@ CAFplot<-SpatialFeaturePlot(Breast_integrated,"CAFs weight",
 CAFplot
 
 #Cancer epithelial weight
-Breast_integrated$'Cancerepithelial weight'=newdata$Cancerepithelial_weight
-Epithelialplot<-SpatialFeaturePlot(Breast_integrated,"Cancerepithelial weight",
+Breast_integrated$'Cancer Epithelial weight'=newdata$Cancerepithelial_weight
+Epithelialplot<-SpatialFeaturePlot(Breast_integrated,"Cancer Epithelial weight",
                                    image.alpha = 0.25,alpha = c(1,20)) &
   theme(text = element_text(face = "bold"),
         legend.text=element_text(size=7.5),
@@ -341,8 +341,8 @@ Myeloidplot<-SpatialFeaturePlot(Breast_integrated,'Myeloid weight',
 Myeloidplot
 
 #Normal epithelial weight
-Breast_integrated$'NormalEpithelial weight'=newdata$NormalEpithelial_weight
-Normalepithelialplot<-SpatialFeaturePlot(Breast_integrated,'NormalEpithelial weight',
+Breast_integrated$'Normal Epithelial weight'=newdata$NormalEpithelial_weight
+Normalepithelialplot<-SpatialFeaturePlot(Breast_integrated,'Normal Epithelial weight',
                                          image.alpha = 0.25,alpha = c(1,20)) &
   theme(text = element_text(face = "bold"),
         legend.text=element_text(size=7.5),
