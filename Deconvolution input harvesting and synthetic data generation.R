@@ -130,6 +130,8 @@ Wu_TNBC_deconvolution[["RNA"]] <- as(Wu_TNBC_deconvolution[["RNA"]], Class = "As
 
 ####Generating synthetic data for each cancer subtype using synthspot data-sets. 
 ####Synthetic data for each cancer subtype is produced at 3 levels of resolution:major cell type, minor cell type, cell subset
+##In case an error arises for generating synthetic data at the minor and subset levels of resolution, specifically (replace=FALSE),
+#re-run the code. 
 
 ###HER2+ synthetic data generation 
 
