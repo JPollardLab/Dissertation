@@ -90,7 +90,7 @@ Stability<-Stability_df %>%
   ggplot(aes(x=Cell_type,y=Stability)) +
   geom_col() +
   theme_bw() + 
-  labs(title = "Stability in maintaining recall accuracy of RCTD at the subset phenotypic level for 
+  labs(title = "Stability in maintaining recall accuracy of RCTD at the subset phenotypic resolution for 
        TNBC",x="Major cell types",y="Stability metric") +
       theme(axis.text=element_text(size=12.5),
       axis.text.x = element_text(angle=90),
